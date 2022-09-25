@@ -1,0 +1,11 @@
+C:\Users\eranb\OneDrive\Desktop\FlappyBird\FlappyBird\bin\Debug\FlappyBird.exe.config
+C:\Users\eranb\OneDrive\Desktop\FlappyBird\FlappyBird\bin\Debug\FlappyBird.exe
+C:\Users\eranb\OneDrive\Desktop\FlappyBird\FlappyBird\bin\Debug\FlappyBird.pdb
+C:\Users\eranb\OneDrive\Desktop\FlappyBird\FlappyBird\obj\Debug\FlappyBird.csproj.AssemblyReference.cache
+C:\Users\eranb\OneDrive\Desktop\FlappyBird\FlappyBird\obj\Debug\FlappyBird.csproj.SuggestedBindingRedirects.cache
+C:\Users\eranb\OneDrive\Desktop\FlappyBird\FlappyBird\obj\Debug\FlappyBird.Form1.resources
+C:\Users\eranb\OneDrive\Desktop\FlappyBird\FlappyBird\obj\Debug\FlappyBird.Properties.Resources.resources
+C:\Users\eranb\OneDrive\Desktop\FlappyBird\FlappyBird\obj\Debug\FlappyBird.csproj.GenerateResource.cache
+C:\Users\eranb\OneDrive\Desktop\FlappyBird\FlappyBird\obj\Debug\FlappyBird.csproj.CoreCompileInputs.cache
+C:\Users\eranb\OneDrive\Desktop\FlappyBird\FlappyBird\obj\Debug\FlappyBird.exe
+C:\Users\eranb\OneDrive\Desktop\FlappyBird\FlappyBird\obj\Debug\FlappyBird.pdb
