@@ -33,17 +33,17 @@ namespace FlappyBird
             p++;
              }
             if ((score % 12 == 3))
-            {
+            {           
+                candy.Location = new Point(1032, 326);
                 candy.Visible = true;
-                if (candy.Location.X < FlappyBird.Location.X)
-                    candy.Location =loc.Location;            
+
             }
             if (score % 13 == 2)
             {
-                TNT.Visible = true;
-                if(TNT.Location.X<FlappyBird.Location.X)
+               
                     TNT.Location = loc.Location;
-
+                    TNT.Visible = true;
+                
             }
             if (candy.Visible == true)
             {
@@ -126,8 +126,9 @@ namespace FlappyBird
                 if (FlappyBird.Bounds.IntersectsWith (candy.Bounds) && candy.Visible==true)
                 {
                    score += 10;
-                  candy.Visible = false;
-                flappy2.Visible = true;
+                   candy.Visible = false;
+                   flappy2.Location = new Point(221, 305);
+                   flappy2.Visible = true;
             }
             if (flappy2.Bounds.IntersectsWith(PipeBottom.Bounds)
                || flappy2.Bounds.IntersectsWith(PipeTop.Bounds) ||
@@ -160,15 +161,21 @@ namespace FlappyBird
         private void endGame()
         {
             gameTimer.Stop();
-            Properties.Settings.Default.score = score;
-            Properties.Settings.Default.Save();
+            if (Properties.Settings.Default.score < score)
+            {
+                Properties.Settings.Default.score = score;
+                Properties.Settings.Default.Save();
+            }
             MessageBox.Show("Game Over ");
-
+            this.Hide();
+            RestartGame restartGame = new RestartGame();
+            restartGame.Show();
         }
 
         private void Form1_Enter(object sender, EventArgs e)
         {
             pipeSpeed += 200;
         }
+
     }
 }
