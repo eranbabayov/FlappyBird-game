@@ -43,7 +43,6 @@
             this.loc = new System.Windows.Forms.PictureBox();
             this.flappy2 = new System.Windows.Forms.PictureBox();
             this.highest_score = new System.Windows.Forms.Label();
-            this.loc2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.Ground)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PipeBottom)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PipeTop)).BeginInit();
@@ -54,7 +53,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.TNT)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.loc)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.flappy2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.loc2)).BeginInit();
             this.SuspendLayout();
             // 
             // scoreText
@@ -157,7 +155,7 @@
             // 
             // loc
             // 
-            this.loc.Location = new System.Drawing.Point(1159, 494);
+            this.loc.Location = new System.Drawing.Point(897, 446);
             this.loc.Name = "loc";
             this.loc.Size = new System.Drawing.Size(100, 50);
             this.loc.TabIndex = 9;
@@ -167,7 +165,7 @@
             // flappy2
             // 
             this.flappy2.Image = global::FlappyBird.Properties.Resources.bird;
-            this.flappy2.Location = new System.Drawing.Point(221, 365);
+            this.flappy2.Location = new System.Drawing.Point(319, 375);
             this.flappy2.Name = "flappy2";
             this.flappy2.Size = new System.Drawing.Size(96, 66);
             this.flappy2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -185,22 +183,12 @@
             this.highest_score.TabIndex = 11;
             this.highest_score.Text = "Higest scoer: 0";
             // 
-            // loc2
-            // 
-            this.loc2.Location = new System.Drawing.Point(899, 494);
-            this.loc2.Name = "loc2";
-            this.loc2.Size = new System.Drawing.Size(100, 50);
-            this.loc2.TabIndex = 12;
-            this.loc2.TabStop = false;
-            this.loc2.Visible = false;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Aqua;
             this.ClientSize = new System.Drawing.Size(1841, 790);
-            this.Controls.Add(this.loc2);
             this.Controls.Add(this.highest_score);
             this.Controls.Add(this.flappy2);
             this.Controls.Add(this.loc);
@@ -228,7 +216,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.TNT)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.loc)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.flappy2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.loc2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -249,7 +236,6 @@
         private System.Windows.Forms.PictureBox loc;
         private System.Windows.Forms.PictureBox flappy2;
         private System.Windows.Forms.Label highest_score;
-        private System.Windows.Forms.PictureBox loc2;
     }
 }
 

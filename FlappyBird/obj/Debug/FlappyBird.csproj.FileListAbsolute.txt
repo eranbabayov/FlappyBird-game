@@ -9,4 +9,3 @@ C:\Users\eranb\OneDrive\Desktop\FlappyBird\FlappyBird\obj\Debug\FlappyBird.cspro
 C:\Users\eranb\OneDrive\Desktop\FlappyBird\FlappyBird\obj\Debug\FlappyBird.csproj.CoreCompileInputs.cache
 C:\Users\eranb\OneDrive\Desktop\FlappyBird\FlappyBird\obj\Debug\FlappyBird.exe
 C:\Users\eranb\OneDrive\Desktop\FlappyBird\FlappyBird\obj\Debug\FlappyBird.pdb
-C:\Users\eranb\OneDrive\Desktop\FlappyBird\FlappyBird\obj\Debug\FlappyBird.RestartGame.resources
