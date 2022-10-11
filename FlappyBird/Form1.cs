@@ -91,6 +91,13 @@ namespace FlappyBird
                 TNT.Left -= pipeSpeed;
                 TNT.Top -= 2;
             }
+            if (PipeBottom.Bounds.Y>373)
+                PipeBottom.Top -= 1;
+            else 
+            {
+                while(PipeBottom.Bounds.Y <426)
+                PipeBottom.Top += 1;
+            }
             FlappyBird.Top += gravity;
             PipeBottom.Left -= pipeSpeed;
             PipeTop.Left -= pipeSpeed;
@@ -120,7 +127,7 @@ namespace FlappyBird
                     pipeTop2.Left += 10;
                 }
                 else
-                    pipeTop2.Top -= 30;
+                    pipeTop2.Left -= 30;
                 pipeBottom2.Left = 950;
                 score++;
             }
@@ -144,8 +151,6 @@ namespace FlappyBird
                 score++;
                 pipeSpeed++;
             }
-
-
 
             if (FlappyBird.Bounds.IntersectsWith(PipeTop.Bounds) ||
                 FlappyBird.Bounds.IntersectsWith(Ground.Bounds) || FlappyBird.Bounds.IntersectsWith(pipeBottom2.Bounds))
@@ -199,6 +204,7 @@ namespace FlappyBird
         }
         private void gameKeyDown(object sender, KeyEventArgs e)
         {
+            
             if (e.KeyCode == Keys.Space)
                 gravity = -5;
             if (e.KeyCode == Keys.Up)

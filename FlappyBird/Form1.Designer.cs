@@ -154,7 +154,7 @@
             // 
             // loc2
             // 
-            this.loc2.Location = new System.Drawing.Point(615, 340);
+            this.loc2.Location = new System.Drawing.Point(632, 326);
             this.loc2.Margin = new System.Windows.Forms.Padding(2);
             this.loc2.Name = "loc2";
             this.loc2.Size = new System.Drawing.Size(75, 41);
@@ -211,7 +211,7 @@
             // pipeBottom2
             // 
             this.pipeBottom2.Image = global::FlappyBird.Properties.Resources.pipe;
-            this.pipeBottom2.Location = new System.Drawing.Point(754, 414);
+            this.pipeBottom2.Location = new System.Drawing.Point(753, 414);
             this.pipeBottom2.Margin = new System.Windows.Forms.Padding(2);
             this.pipeBottom2.Name = "pipeBottom2";
             this.pipeBottom2.Size = new System.Drawing.Size(112, 180);
@@ -255,7 +255,7 @@
             // PipeBottom
             // 
             this.PipeBottom.Image = global::FlappyBird.Properties.Resources.pipe;
-            this.PipeBottom.Location = new System.Drawing.Point(355, 414);
+            this.PipeBottom.Location = new System.Drawing.Point(338, 414);
             this.PipeBottom.Margin = new System.Windows.Forms.Padding(2);
             this.PipeBottom.Name = "PipeBottom";
             this.PipeBottom.Size = new System.Drawing.Size(112, 180);
@@ -309,7 +309,7 @@
             this.Controls.Add(this.PipeTop);
             this.Controls.Add(this.PipeBottom);
             this.Controls.Add(this.FlappyBird);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "FlappyBird";
             this.Enter += new System.EventHandler(this.Form1_Enter);
