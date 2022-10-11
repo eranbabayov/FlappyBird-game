@@ -19,6 +19,7 @@ namespace FlappyBird
         int score = 0;
         int p = 0;
         int lifenumber = 3;
+        int rnd=0;
         public Form1()
         {
             FormBorderStyle = FormBorderStyle.FixedToolWindow;
@@ -39,9 +40,43 @@ namespace FlappyBird
                 candy.Visible = true;
 
             }
+            if (score % 12 == 3)
+            {
+                Random random = new Random();
+                rnd = random.Next(0, 2);
+                misteryBox.Location = mistry_location.Location;
+                misteryBox.Visible = true;
+
+            }
+            if (misteryBox.Visible == true)
+            {
+                misteryBox.Left -= pipeSpeed;
+                misteryBox.Top -= 2;
+            }
+
+            if (FlappyBird.Bounds.IntersectsWith(misteryBox.Bounds) || (flappy2.Visible==true && flappy2.Bounds.IntersectsWith(misteryBox.Bounds)))
+            {
+                switch (rnd)
+                {
+                    case 0:
+                        score += 10;
+                        break;
+                    case 1:
+                        pipeSpeed += 30;
+                        break;
+                    case 2:
+                        if (TNT.Visible == false)
+                        {
+                            TNT.Location = loc.Location;
+                            TNT.Visible = true;
+                        }
+                        break;
+                }
+                misteryBox.Visible=false;
+            }
             if (score % 13 == 2)
             {
-
+                
                 TNT.Location = loc.Location;
                 TNT.Visible = true;
 
@@ -82,7 +117,7 @@ namespace FlappyBird
             {
                 if (pipeTop2.Top < 110)
                 {
-                    pipeTop2.Top += 10;
+                    pipeTop2.Left += 10;
                 }
                 else
                     pipeTop2.Top -= 30;
@@ -102,9 +137,9 @@ namespace FlappyBird
             if (pipeTop2.Left < -50)
             {
                 if (pipeBottom2.Top < 110)
-                    pipeBottom2.Top += 10;
+                    pipeBottom2.Left += 10;
                 else
-                    pipeBottom2.Top -= 30;
+                    pipeBottom2.Left -= 30;
                 pipeTop2.Left = 800;
                 score++;
                 pipeSpeed++;

@@ -109,5 +109,8 @@
   <ItemGroup>
     <None Include="Resources\צילום מסך 2022-07-23 182538.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mystery_box.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
