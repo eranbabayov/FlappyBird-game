@@ -98,6 +98,13 @@ namespace FlappyBird
                 while(PipeBottom.Bounds.Y <426)
                 PipeBottom.Top += 1;
             }
+            if(pipeTop2.Bounds.Y<113)
+                pipeTop2.Top += 1;
+            else
+            {
+                while (pipeTop2.Bounds.Y > 12)
+                    pipeTop2.Top -= 1;
+            }
             FlappyBird.Top += gravity;
             PipeBottom.Left -= pipeSpeed;
             PipeTop.Left -= pipeSpeed;
@@ -271,7 +278,7 @@ namespace FlappyBird
             pipeSpeed = 10;
 
         }
-
+ 
     }
 }
 

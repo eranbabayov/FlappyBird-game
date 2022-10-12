@@ -73,8 +73,7 @@
             // 
             this.scoreText.AutoSize = true;
             this.scoreText.Font = new System.Drawing.Font("Arial Narrow", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.scoreText.Location = new System.Drawing.Point(9, -2);
-            this.scoreText.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.scoreText.Location = new System.Drawing.Point(12, -2);
             this.scoreText.Name = "scoreText";
             this.scoreText.Size = new System.Drawing.Size(141, 44);
             this.scoreText.TabIndex = 4;
@@ -90,8 +89,7 @@
             // 
             this.highest_score.AutoSize = true;
             this.highest_score.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.highest_score.Location = new System.Drawing.Point(161, 10);
-            this.highest_score.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.highest_score.Location = new System.Drawing.Point(215, 12);
             this.highest_score.Name = "highest_score";
             this.highest_score.Size = new System.Drawing.Size(158, 25);
             this.highest_score.TabIndex = 11;
@@ -100,10 +98,10 @@
             // misteryBox
             // 
             this.misteryBox.Image = global::FlappyBird.Properties.Resources.mystery_box;
-            this.misteryBox.Location = new System.Drawing.Point(647, 393);
-            this.misteryBox.Margin = new System.Windows.Forms.Padding(2);
+            this.misteryBox.Location = new System.Drawing.Point(863, 484);
+            this.misteryBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.misteryBox.Name = "misteryBox";
-            this.misteryBox.Size = new System.Drawing.Size(81, 66);
+            this.misteryBox.Size = new System.Drawing.Size(108, 81);
             this.misteryBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.misteryBox.TabIndex = 17;
             this.misteryBox.TabStop = false;
@@ -111,10 +109,10 @@
             // 
             // flappyLocation
             // 
-            this.flappyLocation.Location = new System.Drawing.Point(40, 273);
-            this.flappyLocation.Margin = new System.Windows.Forms.Padding(2);
+            this.flappyLocation.Location = new System.Drawing.Point(53, 336);
+            this.flappyLocation.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.flappyLocation.Name = "flappyLocation";
-            this.flappyLocation.Size = new System.Drawing.Size(75, 54);
+            this.flappyLocation.Size = new System.Drawing.Size(100, 66);
             this.flappyLocation.TabIndex = 16;
             this.flappyLocation.TabStop = false;
             this.flappyLocation.Visible = false;
@@ -122,10 +120,10 @@
             // life2
             // 
             this.life2.Image = ((System.Drawing.Image)(resources.GetObject("life2.Image")));
-            this.life2.Location = new System.Drawing.Point(92, 37);
-            this.life2.Margin = new System.Windows.Forms.Padding(2);
+            this.life2.Location = new System.Drawing.Point(123, 46);
+            this.life2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.life2.Name = "life2";
-            this.life2.Size = new System.Drawing.Size(72, 54);
+            this.life2.Size = new System.Drawing.Size(96, 66);
             this.life2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.life2.TabIndex = 15;
             this.life2.TabStop = false;
@@ -133,10 +131,10 @@
             // life3
             // 
             this.life3.Image = ((System.Drawing.Image)(resources.GetObject("life3.Image")));
-            this.life3.Location = new System.Drawing.Point(166, 37);
-            this.life3.Margin = new System.Windows.Forms.Padding(2);
+            this.life3.Location = new System.Drawing.Point(221, 46);
+            this.life3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.life3.Name = "life3";
-            this.life3.Size = new System.Drawing.Size(72, 54);
+            this.life3.Size = new System.Drawing.Size(96, 66);
             this.life3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.life3.TabIndex = 14;
             this.life3.TabStop = false;
@@ -144,20 +142,20 @@
             // life1
             // 
             this.life1.Image = ((System.Drawing.Image)(resources.GetObject("life1.Image")));
-            this.life1.Location = new System.Drawing.Point(15, 37);
-            this.life1.Margin = new System.Windows.Forms.Padding(2);
+            this.life1.Location = new System.Drawing.Point(20, 46);
+            this.life1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.life1.Name = "life1";
-            this.life1.Size = new System.Drawing.Size(72, 54);
+            this.life1.Size = new System.Drawing.Size(96, 66);
             this.life1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.life1.TabIndex = 13;
             this.life1.TabStop = false;
             // 
             // loc2
             // 
-            this.loc2.Location = new System.Drawing.Point(632, 326);
-            this.loc2.Margin = new System.Windows.Forms.Padding(2);
+            this.loc2.Location = new System.Drawing.Point(843, 401);
+            this.loc2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.loc2.Name = "loc2";
-            this.loc2.Size = new System.Drawing.Size(75, 41);
+            this.loc2.Size = new System.Drawing.Size(100, 50);
             this.loc2.TabIndex = 12;
             this.loc2.TabStop = false;
             this.loc2.Visible = false;
@@ -165,10 +163,10 @@
             // flappy2
             // 
             this.flappy2.Image = global::FlappyBird.Properties.Resources.bird;
-            this.flappy2.Location = new System.Drawing.Point(166, 297);
-            this.flappy2.Margin = new System.Windows.Forms.Padding(2);
+            this.flappy2.Location = new System.Drawing.Point(221, 366);
+            this.flappy2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.flappy2.Name = "flappy2";
-            this.flappy2.Size = new System.Drawing.Size(72, 54);
+            this.flappy2.Size = new System.Drawing.Size(96, 66);
             this.flappy2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.flappy2.TabIndex = 10;
             this.flappy2.TabStop = false;
@@ -176,10 +174,10 @@
             // 
             // loc
             // 
-            this.loc.Location = new System.Drawing.Point(869, 401);
-            this.loc.Margin = new System.Windows.Forms.Padding(2);
+            this.loc.Location = new System.Drawing.Point(1159, 494);
+            this.loc.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.loc.Name = "loc";
-            this.loc.Size = new System.Drawing.Size(75, 41);
+            this.loc.Size = new System.Drawing.Size(100, 50);
             this.loc.TabIndex = 9;
             this.loc.TabStop = false;
             this.loc.Visible = false;
@@ -187,10 +185,10 @@
             // TNT
             // 
             this.TNT.Image = ((System.Drawing.Image)(resources.GetObject("TNT.Image")));
-            this.TNT.Location = new System.Drawing.Point(892, 322);
-            this.TNT.Margin = new System.Windows.Forms.Padding(2);
+            this.TNT.Location = new System.Drawing.Point(1189, 396);
+            this.TNT.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.TNT.Name = "TNT";
-            this.TNT.Size = new System.Drawing.Size(71, 45);
+            this.TNT.Size = new System.Drawing.Size(95, 55);
             this.TNT.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.TNT.TabIndex = 8;
             this.TNT.TabStop = false;
@@ -199,10 +197,10 @@
             // candy
             // 
             this.candy.Image = ((System.Drawing.Image)(resources.GetObject("candy.Image")));
-            this.candy.Location = new System.Drawing.Point(949, 414);
-            this.candy.Margin = new System.Windows.Forms.Padding(2);
+            this.candy.Location = new System.Drawing.Point(1265, 510);
+            this.candy.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.candy.Name = "candy";
-            this.candy.Size = new System.Drawing.Size(71, 45);
+            this.candy.Size = new System.Drawing.Size(95, 55);
             this.candy.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.candy.TabIndex = 7;
             this.candy.TabStop = false;
@@ -211,10 +209,10 @@
             // pipeBottom2
             // 
             this.pipeBottom2.Image = global::FlappyBird.Properties.Resources.pipe;
-            this.pipeBottom2.Location = new System.Drawing.Point(753, 414);
-            this.pipeBottom2.Margin = new System.Windows.Forms.Padding(2);
+            this.pipeBottom2.Location = new System.Drawing.Point(1004, 510);
+            this.pipeBottom2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pipeBottom2.Name = "pipeBottom2";
-            this.pipeBottom2.Size = new System.Drawing.Size(112, 180);
+            this.pipeBottom2.Size = new System.Drawing.Size(149, 222);
             this.pipeBottom2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pipeBottom2.TabIndex = 6;
             this.pipeBottom2.TabStop = false;
@@ -222,10 +220,10 @@
             // pipeTop2
             // 
             this.pipeTop2.Image = global::FlappyBird.Properties.Resources.pipedown;
-            this.pipeTop2.Location = new System.Drawing.Point(817, 10);
-            this.pipeTop2.Margin = new System.Windows.Forms.Padding(2);
+            this.pipeTop2.Location = new System.Drawing.Point(1078, 12);
+            this.pipeTop2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pipeTop2.Name = "pipeTop2";
-            this.pipeTop2.Size = new System.Drawing.Size(114, 171);
+            this.pipeTop2.Size = new System.Drawing.Size(152, 210);
             this.pipeTop2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pipeTop2.TabIndex = 5;
             this.pipeTop2.TabStop = false;
@@ -233,10 +231,10 @@
             // Ground
             // 
             this.Ground.Image = ((System.Drawing.Image)(resources.GetObject("Ground.Image")));
-            this.Ground.Location = new System.Drawing.Point(9, 600);
-            this.Ground.Margin = new System.Windows.Forms.Padding(2);
+            this.Ground.Location = new System.Drawing.Point(12, 738);
+            this.Ground.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Ground.Name = "Ground";
-            this.Ground.Size = new System.Drawing.Size(1382, 41);
+            this.Ground.Size = new System.Drawing.Size(1843, 50);
             this.Ground.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Ground.TabIndex = 3;
             this.Ground.TabStop = false;
@@ -244,10 +242,10 @@
             // PipeTop
             // 
             this.PipeTop.Image = global::FlappyBird.Properties.Resources.pipedown;
-            this.PipeTop.Location = new System.Drawing.Point(406, 10);
-            this.PipeTop.Margin = new System.Windows.Forms.Padding(2);
+            this.PipeTop.Location = new System.Drawing.Point(541, 12);
+            this.PipeTop.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.PipeTop.Name = "PipeTop";
-            this.PipeTop.Size = new System.Drawing.Size(114, 171);
+            this.PipeTop.Size = new System.Drawing.Size(152, 210);
             this.PipeTop.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PipeTop.TabIndex = 2;
             this.PipeTop.TabStop = false;
@@ -255,10 +253,10 @@
             // PipeBottom
             // 
             this.PipeBottom.Image = global::FlappyBird.Properties.Resources.pipe;
-            this.PipeBottom.Location = new System.Drawing.Point(338, 414);
-            this.PipeBottom.Margin = new System.Windows.Forms.Padding(2);
+            this.PipeBottom.Location = new System.Drawing.Point(451, 510);
+            this.PipeBottom.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.PipeBottom.Name = "PipeBottom";
-            this.PipeBottom.Size = new System.Drawing.Size(112, 180);
+            this.PipeBottom.Size = new System.Drawing.Size(149, 222);
             this.PipeBottom.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PipeBottom.TabIndex = 1;
             this.PipeBottom.TabStop = false;
@@ -266,30 +264,30 @@
             // FlappyBird
             // 
             this.FlappyBird.Image = global::FlappyBird.Properties.Resources.bird;
-            this.FlappyBird.Location = new System.Drawing.Point(43, 273);
-            this.FlappyBird.Margin = new System.Windows.Forms.Padding(2);
+            this.FlappyBird.Location = new System.Drawing.Point(57, 336);
+            this.FlappyBird.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.FlappyBird.Name = "FlappyBird";
-            this.FlappyBird.Size = new System.Drawing.Size(72, 54);
+            this.FlappyBird.Size = new System.Drawing.Size(96, 66);
             this.FlappyBird.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.FlappyBird.TabIndex = 0;
             this.FlappyBird.TabStop = false;
             // 
             // mistry_location
             // 
-            this.mistry_location.Location = new System.Drawing.Point(647, 414);
-            this.mistry_location.Margin = new System.Windows.Forms.Padding(2);
+            this.mistry_location.Location = new System.Drawing.Point(863, 510);
+            this.mistry_location.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.mistry_location.Name = "mistry_location";
-            this.mistry_location.Size = new System.Drawing.Size(75, 41);
+            this.mistry_location.Size = new System.Drawing.Size(100, 50);
             this.mistry_location.TabIndex = 18;
             this.mistry_location.TabStop = false;
             this.mistry_location.Visible = false;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Aqua;
-            this.ClientSize = new System.Drawing.Size(1381, 642);
+            this.ClientSize = new System.Drawing.Size(1841, 790);
             this.Controls.Add(this.mistry_location);
             this.Controls.Add(this.misteryBox);
             this.Controls.Add(this.flappyLocation);
@@ -309,7 +307,7 @@
             this.Controls.Add(this.PipeTop);
             this.Controls.Add(this.PipeBottom);
             this.Controls.Add(this.FlappyBird);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "FlappyBird";
             this.Enter += new System.EventHandler(this.Form1_Enter);
