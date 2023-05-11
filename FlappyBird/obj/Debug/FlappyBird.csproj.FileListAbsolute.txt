@@ -10,3 +10,15 @@ C:\Users\eranb\OneDrive\Desktop\FlappyBird\FlappyBird\obj\Debug\FlappyBird.cspro
 C:\Users\eranb\OneDrive\Desktop\FlappyBird\FlappyBird\obj\Debug\FlappyBird.exe
 C:\Users\eranb\OneDrive\Desktop\FlappyBird\FlappyBird\obj\Debug\FlappyBird.pdb
 C:\Users\eranb\OneDrive\Desktop\FlappyBird\FlappyBird\obj\Debug\FlappyBird.RestartGame.resources
+C:\Users\eranb\Documents\GitHub\FlappyBird-04.10.22\FlappyBird\bin\Debug\FlappyBird.exe.config
+C:\Users\eranb\Documents\GitHub\FlappyBird-04.10.22\FlappyBird\bin\Debug\FlappyBird.exe
+C:\Users\eranb\Documents\GitHub\FlappyBird-04.10.22\FlappyBird\bin\Debug\FlappyBird.pdb
+C:\Users\eranb\Documents\GitHub\FlappyBird-04.10.22\FlappyBird\obj\Debug\FlappyBird.csproj.AssemblyReference.cache
+C:\Users\eranb\Documents\GitHub\FlappyBird-04.10.22\FlappyBird\obj\Debug\FlappyBird.csproj.SuggestedBindingRedirects.cache
+C:\Users\eranb\Documents\GitHub\FlappyBird-04.10.22\FlappyBird\obj\Debug\FlappyBird.Form1.resources
+C:\Users\eranb\Documents\GitHub\FlappyBird-04.10.22\FlappyBird\obj\Debug\FlappyBird.Properties.Resources.resources
+C:\Users\eranb\Documents\GitHub\FlappyBird-04.10.22\FlappyBird\obj\Debug\FlappyBird.RestartGame.resources
+C:\Users\eranb\Documents\GitHub\FlappyBird-04.10.22\FlappyBird\obj\Debug\FlappyBird.csproj.GenerateResource.cache
+C:\Users\eranb\Documents\GitHub\FlappyBird-04.10.22\FlappyBird\obj\Debug\FlappyBird.csproj.CoreCompileInputs.cache
+C:\Users\eranb\Documents\GitHub\FlappyBird-04.10.22\FlappyBird\obj\Debug\FlappyBird.exe
+C:\Users\eranb\Documents\GitHub\FlappyBird-04.10.22\FlappyBird\obj\Debug\FlappyBird.pdb
